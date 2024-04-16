@@ -1,0 +1,9 @@
+[Unit]
+Description=Minecraft Server
+
+[Service]
+WorkingDirectory=/home/username/minecraft/beta/
+ExecStart=/home/username/minecraft/beta/start.sh
+
+[Install]
+WantedBy=default.target

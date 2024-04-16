@@ -1,0 +1,9 @@
+[Unit]
+Description=Minecraft Server
+
+[Service]
+WorkingDirectory=/home/username/minecraft/alpha/
+ExecStart=/home/username/minecraft/alpha/start.sh
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Minecraft Servers</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+  <center>
+    <h1>My Minecraft Servers</h1>
+    <div class="dropdown"><button class="dropbtn"><img src="/assets/logo.png" alt="alpha"></button>
+      <div class="dropdown-content">
+        <ip id="alphaIP">localhost:25565</ip>
+        <a onclick="copyAlpha()" target="_blank">Copy Server IP</a>
+        <a href="http://localhost:8123" target="_blank">DynMap&reg;</a>
+        <a onclick="startAlpha()" target="_blank">Start</a>
+        <a onclick="restartAlpha()" target="_blank">Restart</a>
+        <a onclick="stopAlpha()" target="_blank">Shut Down</a>
+      </div>
+    </div>
+    <div class="dropdown"><button class="dropbtn"><img src="/assets/logo.png" alt="beta"></button>
+      <div class="dropdown-content">
+        <ip id="betaIP">localhost:25566</ip>
+        <a onclick="copyBeta()" target="_blank">Copy Server IP</a>
+        <a href="http://localhost:8124" target="_blank">DynMap&reg;</a>
+        <a onclick="startBeta()" target="_blank">Start</a>
+        <a onclick="restartBeta()" target="_blank">Restart</a>
+        <a onclick="stopBeta()" target="_blank">Shut Down</a>
+      </div>
+    </div>
+  </center>
+</body>
+</html>
